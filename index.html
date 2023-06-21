@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>21June2023Javascript</title>
+    </head>
+    <body>
+        <h1>Array,Spread and Rest Operator</h1>
+
+        <script>
+            //Array
+            //Array name is always in plural form
+            // var array = ["Element1,Item1","Element2,Item2","Element3,Item3"]
+            var students = ['Raju',"Rohit","Kaushal"];
+            let friends = [];
+            var cities = [];
+            let states = [];
+
+            console.log(students[0]);
+            console.log(students[1]);
+            console.log(students[2]);
+            console.log(students[0]+' '+students[1]+' '+students[2]);
+
+            let x = ['Raju',20,5.5,['Ramu'],{father_name:"Raushan Kumar"}]
+
+            console.log('->',x[0]);
+            console.log('->',x[1]);
+            console.log('->',x[2]);
+            console.log('->',x[3]);
+            console.log('->',x[3][0]);
+            console.log('->',x[4]);
+            console.log('->',x[4].father_name);
+        </script>
+    </body>
+</html>
